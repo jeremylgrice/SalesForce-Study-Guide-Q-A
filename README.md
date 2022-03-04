@@ -51,6 +51,7 @@
 | Which one of these is considered a best practice? | Create your custom code in a cartridge, and put that cartridge in front of app_storefront_base in the cartridge path |
 | If there are 2 code versions in your sandbox, which one is a true statement? | During execution, the cartridge path looks for cartridges in the active version |
 
+----
 <h3>Knowledge Check: Transactions and SFRA Middleware Events</h3>
 
 | Question  | Answer  |
