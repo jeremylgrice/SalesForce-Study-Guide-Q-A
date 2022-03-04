@@ -2,6 +2,14 @@
   <p align="center"><img src="https://user-images.githubusercontent.com/12513606/156643945-63967b38-5306-4461-9829-a20def922a76.png" /></p>
   
   <p align="center">This is a generalized study guide with questions taken from the Trailheads fast path knowledge checks. This is in no way associated with Salesforce, and was created to help myself and possibly others pass the certification exam.</p>
+  
+----
+<h3>Important links</h3>
+
+| Description | Link |
+|---|---|
+| Official Documentation (new) | https://developer.salesforce.com/docs/?search_text=post%20action%20link |
+| Official Documentation (old) | https://documentation.b2c.commercecloud.salesforce.com/DOC1/index.jsptopic=%2Fcom.demandware.dochelp%2Fcontent%2Fb2c_commerce%2Ftopics%2Fsite_development%2Fb2c_business_manager_extension_points.html |
 
 ----
 <h3>Knowledge Check: Salesforce Commerce API</h3>
@@ -86,6 +94,4 @@
   ]
 }
 ```
-
 ----
-<h3>Important links</h3>
