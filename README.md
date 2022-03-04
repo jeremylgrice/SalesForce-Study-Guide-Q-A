@@ -21,6 +21,33 @@
 </details>
 
 <details>
+    <summary>Misc. Questions</summary>
+  
+    | Question  | Answer  |
+    |---|---|
+    | Where would apple pay be disabled for a site? Payment methods, payment processor, or apple pay | Payment Method |
+    | Do all controller routes need a next() call? | True |
+    | | |
+    | hooks definition syntax in the package.json | `See Below`
+    ```
+    {
+      "hooks": [
+        {
+          "name": "",
+          "script": ""
+        },
+        {
+          "name": "",
+          "script": ""
+        }
+      ]
+    }
+    ```
+    
+    </br>
+  </details>
+
+<details>
   <summary>Knowledge Check: Salesforce Commerce API</summary>
 
   <br />
@@ -38,43 +65,14 @@
 </details>
 
 <details>
-  <summary>Misc. Questions</summary>
-
-  | Question  | Answer  |
-  |---|---|
-  | Where would apple pay be disabled for a site? Payment methods, payment processor, or apple pay | Payment Method |
-  | Do all controller routes need a next() call? | True |
-  | | |
-  | hooks definition syntax in the package.json | `See Below`
-  ```
-  {
-    "hooks": [
-      {
-        "name": "",
-        "script": ""
-      },
-      {
-        "name": "",
-        "script": ""
-      }
-    ]
-  }
-  ```
-  
-  </br>
-</details>
-
-
-
-<details>
 <summary>Knowledge Check: Controllers</summary>
 
   <br />
   
 | Question  | Answer  |
 |---|---|
-| What file does this code refer to: `require('server');` | server.js in the modules/server folder |
-| Which of the following statements is not correct? | A controller can invoke another controller |
+| What file does this code refer to: `require('server');` | server.js in the modules/server folder</details> |
+| Which of the following statements is not correct? | A controller can invoke another controller</details> |
 | Which is not a method for extending a specific controller route (i.e. Home-Show) | Extend |
 | If you extend a controller route, can you prepend as well as append to the same route? | True |
 | If you remove `next();` on a route, what is the effect? | The next middleware function in the chain is not executed |
@@ -141,9 +139,11 @@
 
   | Question  | Answer  |
   |---|---|
-  | The job framework allows the platform to perform processes for integration purposes | True |
-  | What are two integration processes that the jobs framework allows the platform to perform? | 1. Import products and prices from a PIM <br /> 2. Export custom objects and clean up after export |
-  | As part of the customer agreement, there is a max limit of data usage. What happens when a customer goes over those limits? | |
+  | The job framework allows the platform to perform processes for integration purposes | True  |
+  | What are two integration processes that the jobs framework allows the platform to perform? | 1. Import products and prices from a PIM <br /> 2. Export custom objects and clean up after export  |
+  | As part of the customer agreement, there is a max limit of data usage. What happens when a customer goes over those limits? | It generates an overage charge |
+  | Schedules only work in PIG instances so you must run manually in sandboxes | True |
+  | Where do export files go? | IMPEX dir |
 
   <br />
 </details>
