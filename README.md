@@ -132,8 +132,8 @@
   {
     "hooks": [
       {
-        "name": "dw.order.calculate",
-        "script": "./cartridge/scripts/hooks/cart/calculate.js"
+        "name": "",
+        "script": ""
       },
     ]
   }
