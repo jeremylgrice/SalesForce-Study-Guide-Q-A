@@ -1,3 +1,4 @@
+
 # SalesForce Study Guide
   <p align="center"><img src="https://user-images.githubusercontent.com/12513606/156643945-63967b38-5306-4461-9829-a20def922a76.png" /></p>
   
@@ -35,6 +36,34 @@
 
   <br />
 </details>
+
+<details>
+  <summary>Misc. Questions</summary>
+
+  | Question  | Answer  |
+  |---|---|
+  | Where would apple pay be disabled for a site? Payment methods, payment processor, or apple pay | Payment Method |
+  | Do all controller routes need a next() call? | True |
+  | | |
+  | hooks definition syntax in the package.json | `See Below`
+  ```
+  {
+    "hooks": [
+      {
+        "name": "",
+        "script": ""
+      },
+      {
+        "name": "",
+        "script": ""
+      }
+    ]
+  }
+  ```
+  
+  </br>
+</details>
+
 
 
 <details>
@@ -117,31 +146,4 @@
   | As part of the customer agreement, there is a max limit of data usage. What happens when a customer goes over those limits? | |
 
   <br />
-</details>
-  
-<details>
-  <summary>Misc. Questions</summary>
-
-  | Question  | Answer  |
-  |---|---|
-  | Where would apple pay be disabled for a site? Payment methods, payment processor, or apple pay | Payment Method |
-  | Do all controller routes need a next() call? | True |
-  | | |
-  | hooks definition syntax in the package.json | `See Below`
-  ```
-  {
-    "hooks": [
-      {
-        "name": "",
-        "script": ""
-      },
-      {
-        "name": "",
-        "script": ""
-      }
-    ]
-  }
-  ```
-  
-  </br>
 </details>
