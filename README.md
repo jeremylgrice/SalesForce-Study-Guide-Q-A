@@ -5,7 +5,6 @@
   <p align="center">This is a generalized study guide with questions taken from the Trailheads fast path knowledge checks. This is in no way associated with Salesforce, and was created to help myself and possibly others pass the certification exam.</p>
   
   
-  
 <details>
   <summary>Important links</summary>
   
@@ -21,31 +20,23 @@
 </details>
 
 <details>
-    <summary>Misc. Questions</summary>
+    <summary>Overview</summary>
   
-    | Question  | Answer  |
-    |---|---|
-    | Where would apple pay be disabled for a site? Payment methods, payment processor, or apple pay | Payment Method |
-    | Do all controller routes need a next() call? | True |
-    | | |
-    | hooks definition syntax in the package.json | `See Below`
-    ```
-    {
-      "hooks": [
-        {
-          "name": "",
-          "script": ""
-        },
-        {
-          "name": "",
-          "script": ""
-        }
-      ]
-    }
-    ```
-    
-    </br>
+    The following will be various questions I have compiled while studying for the certification test.
+
   </details>
+
+  <details>
+  <summary>Knowledge Check: Misc.</summary>
+
+  <br />
+
+  | Question  | Answer  |
+  |---|---|
+  | Where would apple pay be disabled for a site? Payment methods, payment processor, or apple pay | Payment Method  |
+  
+  <br />
+</details>
 
 <details>
   <summary>Knowledge Check: Salesforce Commerce API</summary>
