@@ -31,9 +31,22 @@
 
   <br />
 
-  | Question  | Answer  |
-  |---|---|
-  | Where would apple pay be disabled for a site? Payment methods, payment processor, or apple pay | Payment Method  |
+  | Question  | Choices | Answer  |
+  |---|---|---|
+  | Where would apple pay be disabled for a site? Payment methods, payment processor, or apple pay |  | <details><summary>Reveal Answer</summary>Payment Method</details>  |
+  | Which product types are there in SFCC ? |  | <details><summary>Reveal Answer</summary>Standard, base(master), variation group, variation product, product set, product bundle.</details>  |  |
+  | What is the correct syntax to define hooks in package.json file in order to configure functionality to be called at a specific point in your application flow or at a specific event? |  | { "hooks": "./cartridge/scripts/hooks.json" } |
+  | How would you make a variable be persistent during multiple pages for your current Site? |  | <isset name="var" scope="session"> |
+  | What would be the expected cache policy for a page that is rendered by another page where its controller has defined cache.applyDefaultCache in its middleware chain? |  | If this page is rendered by another controller with another cache configuration it would overwrite the previous one |
+  | Cache for stored pages are only invalidated and a new one pulled from the applications server when |  | The defined caching time is exceeded or a replication is performed, or the merchant triggers an explicit page cache invalidation in Business Manager. |
+  | What happens if the log size limit is reached? |  | Logging is suspended until the next day |
+  | A storefront user is trying to submit a form, but nothing is happening and data is not submitted. What is the reason? | a. `No action attribute` <br><br> b. `Validation Failing` <br><br> c. `CSRF validation failed` <br><br> d. `The transaction failed on the controller action` <br><br> e. `all answers are correct` | <details><summary>Reveal answer</summary>All answers are correct</details> |
+  | File types accepted to import data in a sandbox instance? Choose all answers that apply. | a. `JSON` <br><br> b. `CSV` <br><br> c. `XML` <br><br> d. `YAML` <br><br> d. `B and C are correct` | <details><summary>Reveal answer</summary> d. B and C are correct</details> |
+  | Select the correct syntax about how to use <isprint> tag. | a. `<isprint value="${pdict.numbers}" style="INT" />` <br><br> b. `<isprint value="${pdict.numbers}" />` <br><br> c. `<isprint value="${pdict.numbers}" encoding="false" />` <br><br> d. `<isprint value="${pdict.numbers}" formater="INTEGER" />` | <details><summary>Reveal answer</summary> the answer is b </details> |
+  | Given this piece of code, how can you access it inside the loop? `<isloop items="${pdict.listOfItems}" status="status" var="variable">` | a. `${pdict.variable}` <br><br> b. `${status}` <br><br> c. `${variable}` <br><br> d. `${listOfItems[status.index]}` | <details><summary>Reveal answer</summary> c. #{variable} </details> |
+  | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
+  | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
+  | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
   
   <br />
 </details>
@@ -98,7 +111,6 @@
   | The cartridge path controls the behavior of your site | True |
   | Cartridges can only be uploaded using VSCode | False |
   | Which one of these is considered a best practice? | Create your custom code in a cartridge, and put that cartridge in front of app_storefront_base in the cartridge path |
-  | If there are 2 code versions in your sandbox, which one is a true statement? | During execution, the cartridge path looks for cartridges in the active version |
   
 </details>
 
@@ -138,3 +150,4 @@
 
   <br />
 </details>
+
