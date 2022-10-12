@@ -2,7 +2,7 @@
 # SalesForce Study Guide
   <p align="center"><img src="https://user-images.githubusercontent.com/12513606/156643945-63967b38-5306-4461-9829-a20def922a76.png" /></p>
   
-  <p align="center">This is a generalized study guide with questions taken from the Trailheads fast path knowledge checks. This is in no way associated with Salesforce, and was created to help myself and possibly others pass the certification exam.</p>
+  <p align="center">This is a generalized study guide with questions taken from various sources. This is in no way associated with Salesforce, but was put together to help me(and hopefully others) study and pass the certification. </p>
   
   
 <details>
@@ -33,17 +33,27 @@
 
   | Question  | Choices | Answer  |
   |---|---|---|
-  | Where would apple pay be disabled for a site? Payment methods, payment processor, or apple pay |  | <details><summary>Reveal Answer</summary>Payment Method</details>  |
-  | Which product types are there in SFCC ? |  | <details><summary>Reveal Answer</summary>Standard, base(master), variation group, variation product, product set, product bundle.</details>  |  |
-  | What is the correct syntax to define hooks in package.json file in order to configure functionality to be called at a specific point in your application flow or at a specific event? |  | { "hooks": "./cartridge/scripts/hooks.json" } |
-  | How would you make a variable be persistent during multiple pages for your current Site? |  | <isset name="var" scope="session"> |
-  | What would be the expected cache policy for a page that is rendered by another page where its controller has defined cache.applyDefaultCache in its middleware chain? |  | If this page is rendered by another controller with another cache configuration it would overwrite the previous one |
-  | Cache for stored pages are only invalidated and a new one pulled from the applications server when |  | The defined caching time is exceeded or a replication is performed, or the merchant triggers an explicit page cache invalidation in Business Manager. |
-  | What happens if the log size limit is reached? |  | Logging is suspended until the next day |
-  | A storefront user is trying to submit a form, but nothing is happening and data is not submitted. What is the reason? | a. `No action attribute` <br><br> b. `Validation Failing` <br><br> c. `CSRF validation failed` <br><br> d. `The transaction failed on the controller action` <br><br> e. `all answers are correct` | <details><summary>Reveal answer</summary>All answers are correct</details> |
-  | File types accepted to import data in a sandbox instance? Choose all answers that apply. | a. `JSON` <br><br> b. `CSV` <br><br> c. `XML` <br><br> d. `YAML` <br><br> d. `B and C are correct` | <details><summary>Reveal answer</summary> d. B and C are correct</details> |
-  | Select the correct syntax about how to use <isprint> tag. | a. `<isprint value="${pdict.numbers}" style="INT" />` <br><br> b. `<isprint value="${pdict.numbers}" />` <br><br> c. `<isprint value="${pdict.numbers}" encoding="false" />` <br><br> d. `<isprint value="${pdict.numbers}" formater="INTEGER" />` | <details><summary>Reveal answer</summary> the answer is b </details> |
-  | Given this piece of code, how can you access it inside the loop? `<isloop items="${pdict.listOfItems}" status="status" var="variable">` | a. `${pdict.variable}` <br><br> b. `${status}` <br><br> c. `${variable}` <br><br> d. `${listOfItems[status.index]}` | <details><summary>Reveal answer</summary> c. #{variable} </details> |
+  | Question - Where would apple pay be disabled for a site? Payment methods, payment processor, or apple pay |  | <details><summary>Reveal Answer</summary>Payment Method</details>  |
+  | Question - Which product types are there in SFCC ? |  | <details><summary>Reveal Answer</summary>Standard, base(master), variation group, variation product, product set, product bundle.</details>  |  |
+  | Question - What is the correct syntax to define hooks in package.json file in order to configure functionality to be called at a specific point in your application flow or at a specific event? |  | { "hooks": "./cartridge/scripts/hooks.json" } |
+  | Question - How would you make a variable be persistent during multiple pages for your current Site? |  | <isset name="var" scope="session"> |
+  | Question - What would be the expected cache policy for a page that is rendered by another page where its controller has defined cache.applyDefaultCache in its middleware chain? |  | If this page is rendered by another controller with another cache configuration it would overwrite the previous one |
+  | Question - Cache for stored pages are only invalidated and a new one pulled from the applications server when |  | The defined caching time is exceeded or a replication is performed, or the merchant triggers an explicit page cache invalidation in Business Manager. |
+  | Question - What happens if the log size limit is reached? |  | Logging is suspended until the next day |
+  | Question - A storefront user is trying to submit a form, but nothing is happening and data is not submitted. What is the reason? | a. `No action attribute` <br><br> b. `Validation Failing` <br><br> c. `CSRF validation failed` <br><br> d. `The transaction failed on the controller action` <br><br> e. `all answers are correct` | <details><summary>Reveal answer</summary>All answers are correct</details> |
+  | Question - File types accepted to import data in a sandbox instance? Choose all answers that apply. | a. `JSON` <br><br> b. `CSV` <br><br> c. `XML` <br><br> d. `YAML` <br><br> d. `B and C are correct` | <details><summary>Reveal answer</summary> d. B and C are correct</details> |
+  | Question - Select the correct syntax about how to use <isprint> tag. | a. `<isprint value="${pdict.numbers}" style="INT" />` <br><br> b. `<isprint value="${pdict.numbers}" />` <br><br> c. `<isprint value="${pdict.numbers}" encoding="false" />` <br><br> d. `<isprint value="${pdict.numbers}" formater="INTEGER" />` | <details><summary>Reveal answer</summary> the answer is b </details> |
+  | Question - Given this piece of code, how can you access it inside the loop? `<isloop items="${pdict.listOfItems}" status="status" var="variable">` | a. `${pdict.variable}` <br><br> b. `${status}` <br><br> c. `${variable}` <br><br> d. `${listOfItems[status.index]}` | <details><summary>Reveal answer</summary> c. #{variable} </details> |
+  | Question - What is the purpose of the `<isif>` tag? | a. `Anything enclosed in an <isif>... </isif> structure isn't parsed by the template processor and doesn't appear in the generated storefront page.` <br><br>  b. `With <isif> you can loop through the elements of a specified iterator.` <br><br> c. `The <isif> tag outputs the result of expressions and template variables` <br><br> d. `The <isif> tag group lets you create conditional programming constructs using custom tags` | <details><summary>Reveal answer</summary> d. The `<isif>` tag group lets you create conditional programming constructs using custom tags </details> |
+  | Question - Select ISML tag or tags that allows you to reuse code in your templates | a. `<isinclude>` <br><br> b. `<isloop>` <br><br> c. `<isdecorate>` <br><br> d. `<iscontent>` <br><br> e. `A and D are correct` <br><br> f. `A and C are correct` | <details><summary>Reveal answer</summary> f. A and C are correct </details> |
+  | Question - What salesforce tag is the best way to debug on ISML? | a. `<ismodule>` <br><br> b. `<isdebug>` <br><br> c. `<iscontent>` <br><br> d. `<isprint>` | <details><summary>Reveal answer</summary> d. `<isprint>` </details> |
+  | Question - Inside a job flow… how can you set it up so that a job step returns a flag to be used by next job steps? | a. On BM, enable exit status rules <br><br> b. Create script with `return new Status(Status.OK);` <br><br> c. Create script with `return new StatusFlag(Status.OK);` <br><br> d. Create script with `return new Status(Status.OK, 'OK');` <br><br> e. B and D are correct | <details><summary>Reveal answer</summary> e. B and D are correct </details> |
+  | For your current site you have multiple locales defined. You’re checking PDP in order to check product description. What happens when a certain locale is not found? | a. `No description is shown` <br><br> b. `Error message is shown` <br><br> c. `Description is shown in fallback locale if configured` <br><br> d. `A and C are both correct` | <details><summary>Reveal answer</summary> d. A and C are both correct. </details> |
+  | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
+  | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
+  | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
+  | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
+  | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
   | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
   | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
   | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
