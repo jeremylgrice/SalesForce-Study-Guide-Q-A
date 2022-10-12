@@ -1,8 +1,11 @@
 
-# SalesForce Study Guide
-  <p align="center"><img src="https://user-images.githubusercontent.com/12513606/156643945-63967b38-5306-4461-9829-a20def922a76.png" /></p>
+<div align="center">
+  <h1>SalesForce Certification Studyguide</h1>
+</div>
+
+<p align="center"><img src="./study.jpg" width="100%" height="auto" /></p>
   
-  <p align="center">This is a generalized study guide with questions taken from the Trailheads fast path knowledge checks. This is in no way associated with Salesforce, and was created to help myself and possibly others pass the certification exam.</p>
+<p align="center">This is a generalized study guide with questions taken from the Trailheads fast path knowledge checks. This is in no way associated with Salesforce, and was created to help myself and possibly others pass the certification exam.</p>
   
   
 <details>
