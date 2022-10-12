@@ -2,7 +2,7 @@
 # SalesForce Study Guide
   <p align="center"><img src="https://user-images.githubusercontent.com/12513606/156643945-63967b38-5306-4461-9829-a20def922a76.png" /></p>
   
-  <p align="center">This is a generalized study guide with questions taken from various sources. This is in no way associated with Salesforce, but was put together to help me(and hopefully others) study and pass the certification. </p>
+  <p align="center">This is a generalized study guide with questions taken from the Trailheads fast path knowledge checks. This is in no way associated with Salesforce, and was created to help myself and possibly others pass the certification exam.</p>
   
   
 <details>
@@ -49,7 +49,7 @@
   | Question - What salesforce tag is the best way to debug on ISML? | a. `<ismodule>` <br><br> b. `<isdebug>` <br><br> c. `<iscontent>` <br><br> d. `<isprint>` | <details><summary>Reveal answer</summary> d. `<isprint>` </details> |
   | Question - Inside a job flow… how can you set it up so that a job step returns a flag to be used by next job steps? | a. On BM, enable exit status rules <br><br> b. Create script with `return new Status(Status.OK);` <br><br> c. Create script with `return new StatusFlag(Status.OK);` <br><br> d. Create script with `return new Status(Status.OK, 'OK');` <br><br> e. B and D are correct | <details><summary>Reveal answer</summary> e. B and D are correct </details> |
   | For your current site you have multiple locales defined. You’re checking PDP in order to check product description. What happens when a certain locale is not found? | a. `No description is shown` <br><br> b. `Error message is shown` <br><br> c. `Description is shown in fallback locale if configured` <br><br> d. `A and C are both correct` | <details><summary>Reveal answer</summary> d. A and C are both correct. </details> |
-  | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
+  | What is the best way of making use of CSRF Tokens in your templates? | a. `Add a <isscript> tag in ISML to generate that token` <br><br> b. `Add the snippet csrfProtection.generateToken as middleware in your controller` <br><br> c. `Require the CSRFProtection class in the controller and send the token that calls generateToken() via the viewData` <br><br> d. `Business Manager will protect your ecommerce site against CSRF attacks. No action is needed` | <details><summary>Reveal answer</summary> b. Add the snippet csrfProtection.generateToken as middleware in your controller </details> |
   | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
   | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
   | Question | Choices | <details><summary>Reveal answer</summary> answer here </details> |
